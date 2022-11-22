@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -32,11 +32,22 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Andre/Documents/GitHub/AndresNijs.github.io/opdracht-flexbox&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Andre\Documents\GitHub\AndresNijs.github.io\opdracht-flexbox" />
+      <recent name="C:\Users\Andre\Documents\GitHub\AndresNijs.github.io\labo-7" />
+      <recent name="C:\Users\Andre\Documents\GitHub\AndresNijs.github.io\labo-7\opdracht-personal-homepage-CSS" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Andre\Documents\GitHub\AndresNijs.github.io\labo-7\opdracht-nature-blog" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,7 +61,15 @@
       <workItem from="1665650950377" duration="5174000" />
       <workItem from="1666261857324" duration="875000" />
       <workItem from="1666862332781" duration="4576000" />
-      <workItem from="1667218185468" duration="3166000" />
+      <workItem from="1667218185468" duration="3198000" />
+      <workItem from="1668075072450" duration="399000" />
+      <workItem from="1668077675184" duration="3252000" />
+      <workItem from="1668081271175" duration="380000" />
+      <workItem from="1668605136216" duration="2369000" />
+      <workItem from="1668690370441" duration="671000" />
+      <workItem from="1668766875127" duration="11000" />
+      <workItem from="1668938617153" duration="1531000" />
+      <workItem from="1668940451568" duration="4000" />
     </task>
     <servers />
   </component>
