@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles/style.css" rel="stylesheet">
+    <script charset="utf-8" src="scripts/code.js"
+            type="text/javascript"></script>
+    <title>Opdracht formwaarden</title>
+</head>
+<body>
+<div>
+    <label for="chkRoker">Is roker</label>
+    <input id="chkRoker" name="roker" type="checkbox" value="roker">
+</div>
+<div>
+    <label>Moedertaal: </label>
+    <input id="nederlands" name="rdbMoedertaal" type="radio" value="nl">
+    <label for="nederlands">Nederlands</label>
+    <input id="frans" name="rdbMoedertaal" type="radio" value="fr">
+    <label for="frans">Frans</label>
+    <input id="engels" name="rdbMoedertaal" type="radio" value="en">
+    <label for="engels">Engels</label>
+</div>
+<div>
+    <label for="optBuurland">Favoriete buurland:</label>
+    <select id="optBuurland" name="buurland">
+        <option value="Nederland">Nederland</option>
+        <option value="Frankrijk">Frankrijk</option>
+        <option value="Duitsland">Duitsland</option>
+    </select>
+</div>
+<div>
+    <label for="optBestelling">Bestelling:</label>
+    <select id="optBestelling" multiple name="bestelling">
+        <option value="aardappelen">aardappelen</option>
+        <option value="brood">brood</option>
+        <option value="melk">melk</option>
+        <option value="chips">chips</option>
+        <option value="krant">krant</option>
+    </select>
+</div>
+<div>
+    <button id="btnToonResultaat">Toon Resultaat</button>
+</div>
+
+</body>
+</html>

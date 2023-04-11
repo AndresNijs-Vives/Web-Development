@@ -1,0 +1,24 @@
+body {
+    margin: 20px;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.column-1-7 {
+    width: calc(100% / 7);
+    background-color: #c2e3ec;
+}
+.column-2-7 {
+    width: calc((100% / 7) * 2);
+    background-color: #c2ece0;
+}
+.column-3-7 {
+    width: calc((100% / 7) * 3);
+    background-color: #c2ceec;
+}
+.col {
+    float: left;
+    height: 500px;
+    border: 1px solid black;
+}

@@ -1,0 +1,168 @@
+body {
+    width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Segoe UI, Arial, sans-serif;
+    font-size: 1.2em;
+    background-color: #00d4ef;
+    background-image: url("../img/background.png");
+    background-repeat: repeat;
+}
+
+header {
+    background-color: rgb(193,156,214);
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+header ul {
+     display: flex;
+     flex-direction: row;
+     list-style: none;
+ }
+
+header ul:last-child {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+header ul li a{
+    float: left;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1em;
+}
+
+header ul li a:last-child {
+    float: right;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+.header-background {
+    background-image: url("../img/code.jpg");
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    background-color: whitesmoke;
+    padding: 1em 1em 1em 1em;
+}
+
+.titel {
+    font-size: 3em;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas: 'inhoud body body body logo';
+}
+
+.inhoud{
+    border-right: solid black 1px;
+    grid-area: inhoud;
+}
+
+.inhoud p {
+    font-size: 1.8em;
+}
+
+.inhoud ol{
+    list-style-type: upper-roman;
+    font-size: 0.9em;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.inhoud ul {
+    list-style-type: square;
+    text-indent: 10px;
+    font-size: 0.9em;
+}
+
+.subtitel {
+    font-size: 2.1em;
+    padding-left: 10px;
+}
+
+.body {
+    grid-area: body;
+}
+
+.body-text {
+    font-size: 1em;
+    padding-left: 10px;
+}
+
+.merk {
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    background-color: #db97ff;
+    border-radius: 15px;
+    margin-bottom: 1em;
+    margin-left: 10px;
+}
+
+.merk-titel {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.logos{
+    padding-left: 10px;
+}
+
+.logos img{
+    padding-bottom: 25px;
+}
+
+footer{
+    text-align: right;
+    background-color: #eee;
+    font-size: 0.75em;
+    margin-top: 25px;
+}
+footer span {
+    padding-right: 0.5px;
+    font-style: italic;
+}
+
+table {
+    text-align: center;
+    width: 100%;
+    border-spacing: 0px;
+}
+th, td {
+    padding: 1px;
+}
+
+th {
+  border-bottom: black 3px solid;
+}
+
+td {
+    border: 1px solid black;
+}
+td
+
+tr:nth-child(even) {
+    background-color: #f3e4fb;
+}
+tr:nth-child(odd) {
+    background-color: #db97ff;
+}
+
+@media screen and (max-width: 992px){
+    body {
+        width: 100%;
+    }
+}

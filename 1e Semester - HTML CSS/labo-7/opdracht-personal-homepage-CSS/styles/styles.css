@@ -1,0 +1,24 @@
+body {
+    font-family: "Verdana Pro";
+}
+td {
+
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+td .image{
+
+}
+
+th {
+    background-color: darkgrey;
+    border: 2px solid #000000;
+    padding: 10px;
+    text-align: center;
+}
+

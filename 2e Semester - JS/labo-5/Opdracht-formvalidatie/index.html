@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles/style.css" rel="stylesheet">
+    <script charset="utf-8" src="scripts/code.js"
+            type="text/javascript"></script>
+    <title>Opdracht formvalidatie</title>
+</head>
+<body>
+<label for="inpFirstName">Voornaam:</label>
+<input id="inpFirstName" name="inpFirstName" placeholder="Voornaam.." type="text">
+<span class="error" id="lblFirstnameError"></span><br><br>
+
+<label for="inpLastName">Familienaam:</label>
+<input id="inpLastName" name="inpLastName" placeholder="Familienaam.." type="text">
+<span class="error" id="lblLastnameError"></span><br><br>
+
+<label for="inpBirthDate">Geboortedatum:</label>
+<input id="inpBirthDate" name="inpBirthDate" placeholder="Geboortedatum.." type="text">
+<span class="error" id="lbBirthDateError"></span><br><br>
+
+<label for="inpEmail">Email:</label>
+<input id="inpEmail" name="inpEmail" placeholder="Email.." type="text">
+<span class="error" id="lblEmailError"></span><br><br>
+
+<label for="inpKids">Aantal kinderen:</label>
+<input id="inpKids" name="inpKids" placeholder="Aantal kinderen.." type="text">
+<span class="error" id="lblNumberKidsError"></span><br><br>
+
+<button id="btnValideer">Valideer</button>
+</body>
+</html>

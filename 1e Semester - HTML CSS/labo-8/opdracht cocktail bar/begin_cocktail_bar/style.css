@@ -1,0 +1,68 @@
+body{
+    margin:auto;
+    width: 95%;
+    font-family: Verdana, Helvetica, Arial;
+    font-size: 1.2em;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+h1,h2{
+    color: #007e7e;
+
+}
+h1{
+    font-size: 150%;
+}
+h2{
+    font-size: 130%;
+}
+.rubriek{
+    color: red;
+    text-align: center;
+}
+footer{
+    font-size: 50%;
+}
+.hover :hover{
+    background-color: brown;
+
+}
+.weekly{
+    text-align: center;
+    order: 1;
+    flex: 29%;
+    border-style: solid;
+}
+header{
+    order: -1;
+}
+#guarantee{
+    margin: 30px;
+    padding: 20px;
+    color: #444444;
+    background-color: #a7cece;
+    border-style: dotted;
+    border-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.origin{
+    flex: 70%;
+}
+footer{
+    order: 99;
+}
+.star{
+
+    order: 1;
+    flex: 10%;
+
+}
+.startext{
+    order: 2;
+    flex: 90%;
+    font-style: italic;
+
+}

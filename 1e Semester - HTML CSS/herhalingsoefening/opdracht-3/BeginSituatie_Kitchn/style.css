@@ -1,0 +1,205 @@
+/** Volgende CSS gaan we ze geven **/
+.respimg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+body {
+    margin: 0 0 0 0;
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    border-bottom: 2px solid black;
+    color: black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+/* grijze lijn */
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #ebe8e8;
+}
+
+/* header */
+header {
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+}
+
+header img {
+    height : 50px;
+}
+
+/* navbar */
+nav {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    list-style: none;
+}
+
+nav ul li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    border-right: 1px solid #ebe8e8;
+
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #5b4746;
+}
+
+nav ul li:last-child{
+    border-right: none;
+}
+
+nav ul li:hover{
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #fff100;
+}
+
+/* main header */
+.main-header {
+    display: flex;
+    background-image: url("images/headerimage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-header span{
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px #8D99AE;
+    text-align: center;
+}
+
+/* main-recipe */
+.main-recipe {
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto;
+    grid-gap: 10px;
+}
+
+.main-recipe article {
+    margin-right: 1.5em;
+    padding-top: 1em;
+    border-top: 1px solid #ddd;
+}
+
+.kicker {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    color: #ff4d56;
+}
+
+.main-recipe a {
+    text-decoration: none;
+    color: black;
+}
+
+.recipe-body{
+    color: #666;
+    line-height: 2;
+}
+
+.recipe-autor{
+    display: inline;
+    padding-right: 10px;
+    border-right: solid #ebe8e8 1px;
+    font-style: italic;
+}
+.recipe-timestamp {
+    display: inline;
+    color: #666;
+    padding-left: 10px;
+}
+
+/* main recommended*/
+.main-recommended {
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+}
+
+.main-recommended img {
+    margin-bottom: 25px;
+ }
+
+/* footer */
+footer {
+    display: flex;
+    width: 100%;
+    line-height: 2em;
+}
+
+/* id's */
+#left {
+    float: left;
+    width: 50%;
+    text-align: right;
+    padding: 20px;
+}
+
+#right {
+    float: right;
+    width: 50%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+/* media-queries */
+@media screen and (min-width: 770px){
+    header,nav,.main-recipe,.main-recommended {
+        width: 750px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    header,nav,.main-recipe,.main-recommended {
+        width: 980px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .main-header span {
+        font-size: 5em;
+    }
+}
+
